@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'Jetbrains';
+  src: url(jetbrains.ttf);
+}
+
 body{
-  background-color: #425df4;
+  font-family: 'brains';
+  background-color: #fff6d6;
   font-family: 'Roboto', sans-serif;  
+}
+h1{
+  font: jetbrains;
 }
