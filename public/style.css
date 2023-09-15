@@ -13,25 +13,21 @@ body{
 h1{
   font: jetbrains;
   color: #003A3A;
-  margin-left: 15px;
 }
 .header{
- 
   display: flex;
   flex-shrink: 0;
   justify-content: space-between;
   align-items: center;
   margin: 10px;
 
-
 }
 .logo{
+  gap: 20px;
   display: flex;
   flex-shrink: 0;
   align-items: center;
-  
 }
 img{
- 
   height: 50px;
 }
