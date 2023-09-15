@@ -2,19 +2,23 @@
   font-family: 'Jetbrains';
   src: url(jetbrains.ttf);
 }
-*{
+
+* {
   margin: 0px;
 }
-body{
+
+body {
   font-family: 'Jetbrains';
   background-color: #fff6d6;
-  
+
 }
-h1{
+
+h1 {
   font: jetbrains;
   color: #003A3A;
 }
-.header{
+
+.header {
   display: flex;
   flex-shrink: 0;
   justify-content: space-between;
@@ -22,62 +26,84 @@ h1{
   margin: 10px;
 
 }
-.logo{
+
+.logo {
   gap: 20px;
   display: flex;
   flex-shrink: 0;
   align-items: center;
 }
-img{
+
+img {
   height: 50px;
 }
-.quote{
+
+.quote {
   display: flex;
   justify-content: center;
   height: 60vh;
   align-items: center;
 
 }
-.quote p{
+
+.quote p {
   width: 60vw;
   font-size: large;
   text-align: center;
 }
 
-.mallu{
+.mallu {
   height: 30vh;
 }
-.mal{
+
+.mal {
   display: flex;
   justify-content: center;
-  
+
 
 }
-.project{
+
+.project {
   height: 100vh;
-  background-color:#015252;
+  background-color: #015252;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: startr;
+  gap: 10vh;
+  
+}
+
+.projects-panel{
+  gap: 10vw;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 300px;
-  
-
 }
-.rec{
-  width: 200px;
-  height: 100px;
+
+.rec {
+  width: 400px;
+  height: 200px;
   background-color: #003A3A;
   border: solid #fff6d6;
   border-radius: 10px;
   transition: all .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
-.rec:hover{
-  transform: translate(-5px,-5px);
+.rec h1{
+  font-size: 30px;
+  color: #fff6d6;
+}
+
+.rec:hover {
+  transform: translate(-5px, -5px);
   box-shadow: 10px 10px rgba(0, 0, 0, .200);
 }
-.project h1{
-  color: #fff6d6;
-  
 
+.title {
+  color: #fff6d6;
+  font-size: 100px;
+  padding-left: 150px;
 }
