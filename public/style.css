@@ -53,3 +53,31 @@ img{
   
 
 }
+.project{
+  height: 100vh;
+  background-color:#015252;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  
+
+}
+.rec{
+  width: 200px;
+  height: 100px;
+  background-color: #003A3A;
+  border: solid #fff6d6;
+  border-radius: 10px;
+  transition: all .5s ease;
+
+}
+.rec:hover{
+  transform: translate(-5px,-5px);
+  box-shadow: 10px 10px rgba(0, 0, 0, .200);
+}
+.project h1{
+  color: #fff6d6;
+  
+
+}
