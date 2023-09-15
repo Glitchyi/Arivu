@@ -81,8 +81,8 @@ img {
 }
 
 .rec {
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   background-color: #003A3A;
   border: solid #fff6d6;
   border-radius: 10px;
@@ -104,6 +104,6 @@ img {
 
 .title {
   color: #fff6d6;
-  font-size: 100px;
+  font-size: 80px;
   padding-left: 150px;
 }
