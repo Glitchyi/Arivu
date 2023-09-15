@@ -31,3 +31,25 @@ h1{
 img{
   height: 50px;
 }
+.quote{
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  align-items: center;
+
+}
+.quote p{
+  width: 60vw;
+  font-size: large;
+  text-align: center;
+}
+
+.mallu{
+  height: 30vh;
+}
+.mal{
+  display: flex;
+  justify-content: center;
+  
+
+}
