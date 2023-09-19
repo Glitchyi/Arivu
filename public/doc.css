@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Jetbrains';
+    src: url(jetbrains.ttf);
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Jetbrains';
+    background-color: #fff6d6;
+
+}
