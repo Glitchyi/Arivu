@@ -5,7 +5,11 @@
 
 * {
   margin: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
+
+
 
 body {
   font-family: 'Jetbrains';
@@ -15,6 +19,8 @@ body {
 
 h1 {
   font: jetbrains;
+  font-size: x-large;
+  font-weight: 900;
   color: #003A3A;
 }
 
@@ -38,29 +44,33 @@ img {
   height: 50px;
 }
 
+.logo-img{
+  height: 50px;
+}
+
 .quote {
   display: flex;
   justify-content: center;
   height: 60vh;
   align-items: center;
-
+  
 }
 
 .quote p {
-  width: 60vw;
-  font-size: large;
+  width: 70vw;
+  font-size: 2.0vh;
   text-align: center;
 }
 
 .mallu {
-  height: 30vh;
+  height: 15vw;
+  object-fit: cover;
 }
 
 .mal {
   display: flex;
   justify-content: center;
-
-
+  bottom: 0px;
 }
 
 .project {
@@ -107,3 +117,4 @@ img {
   font-size: 80px;
   padding-left: 150px;
 }
+

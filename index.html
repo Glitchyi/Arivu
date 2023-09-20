@@ -6,6 +6,7 @@
     <title>Arivu</title>
     <link rel="stylesheet" href="public/style.css">
     <link rel="shortcut icon" href="public/logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -13,20 +14,29 @@
         <div class="header">
 
             <div class="logo">
-                <img src="public/logo.png" alt="">
+                <img class="logo-img" src="public/logo.png" >
                 <h1>Arivu</h1>
             </div>
             <img src="public/clic.png">
 
 
         </div>
-        <div class="quote">
-            <p> <B>ARIVU</B>,is a student driven event where you'll ignite your creativity,explore your interests,and
-                unlock your full potential through exciting projects.</p>
+        <div class="quote flex flex-col gap-10">
+            <div>
+                <p> <B>ARIVU</B>,is a student driven event where you'll ignite your creativity,explore your interests,and
+                    unlock your full potential through exciting projects.</p>
+                </div>
+                <p>The first part of the event will be conducted after 4:00 PM @ APJ Abdul Kalam Hall</p>
+                <a href="https://forms.gle/y5TGTo74Pa45yACp9">
+                   <u><p>Click Here to Register</p></u>
+                </a>
+                <a href="https://docs.google.com/document/d/1gld4GxqIQ7q8rXD374fjtXtx405Jh1Qgbw5yfsTyJfA/edit?usp=sharing">
+                    <u><p>Click Here for More details</p></u>
+                </a>
         </div>
-        <div class="mal">
-            <img class="mallu" src="public/malarivu.png">
+        <div class="mal ">
         </div>
+        <img class="hidden sm:block mallu absolute fixed bottom-0 left-1/2 transform -translate-x-1/2 " src="public/malarivu.png">
     </div>
     <div class="project" style="display: none;">
         <h1 class="title"> Projects </h1>
