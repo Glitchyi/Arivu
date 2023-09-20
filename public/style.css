@@ -5,22 +5,50 @@
 
 * {
   margin: 0px;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
 
+a:link, a:visited {
+  text-decoration: none !important;
+}
 
 body {
   font-family: 'Jetbrains';
   background-color: #fff6d6;
-
 }
 
-h1 {
+.pattern{
+  width: 70vw;
+  height: 20vh;
+  object-fit: cover;
+  display: none;
+}
+
+.landing{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .landing {
+      /* flex-direction: row; */
+      justify-content: center;
+      padding: 10vw;
+    }
+    .pattern{
+      display: block;
+    }
+}
+ 
+.arivu-text {
   font: jetbrains;
   font-size: x-large;
-  font-weight: 900;
   color: #003A3A;
 }
 
@@ -29,8 +57,11 @@ h1 {
   flex-shrink: 0;
   justify-content: space-between;
   align-items: center;
-  margin: 3vh;
-
+  width: calc(100vw - 60px);
+  position: fixed;
+  padding: 30px;
+  top: 0;
+  background: #fff6d6;
 }
 
 .logo {
@@ -50,23 +81,68 @@ img {
 
 .quote {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 60vh;
-  align-items: center;
-  
+  height: 50vh;
+  gap: 20px;
 }
 
 .quote p {
-  width: 70vw;
+  width: 50vw;
   font-size: 2.0vh;
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  .quote {
+      justify-content: flex-end;
+      /* height: 60vh; */
+      align-items: start;
+    }
+    .quote p {
+      text-align: left;
+      width: 70vw;
+    }
+}
+.content-main{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .mallu {
   height: 15vw;
   object-fit: cover;
+  display: none;
+  position: absolute;
+  transform: translateX(-50%) ;
+  left: 50%;
+  bottom: 0;
+  z-index: -1;
 }
 
+@media (min-width: 640px) {
+  .mallu {
+      display: block ;
+  }
+}
+
+.malluver {
+  height: 75vh;
+  object-fit: cover;
+  display: block ;
+  position: absolute;
+  filter: opacity(0.5);
+  right: 0;
+  bottom: 10px;
+  z-index: -1;
+}
+
+@media (min-width: 640px) {
+  .malluver {
+    display: none;
+  }
+}
 .mal {
   display: flex;
   justify-content: center;
