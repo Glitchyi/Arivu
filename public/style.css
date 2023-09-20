@@ -11,15 +11,16 @@ body::-webkit-scrollbar{
   display: none;
 }
 
-a:link, a:visited {
-  text-decoration: none !important;
-}
 
 body {
   font-family: 'Jetbrains';
   background-color: #fff6d6;
 }
 
+.link{
+  text-decoration: none;
+  color: black;
+}
 .pattern{
   width: 70vw;
   height: 20vh;
