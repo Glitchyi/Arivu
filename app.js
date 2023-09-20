@@ -3,17 +3,17 @@ const { exec } = require("child_process");
 const fs = require("fs");
 
 
-// Enable during production build
-exec(
-  "npx tailwindcss -i ./input.css -o ./public/style.css",
-  (err, stdout, stderr) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    console.log(stdout);
-  }
-);
+// // Enable during production build
+// exec(
+//   "npx tailwindcss -i ./input.css -o ./  style.css",
+//   (err, stdout, stderr) => {
+//     if (err) {
+//       console.error(err);
+//       return;
+//     }
+//     console.log(stdout);
+//   }
+// );
 
 
 // Express server
