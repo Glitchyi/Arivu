@@ -29,9 +29,6 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-// app.get('/about', (req, res) => {
-//     res.sendFile(__dirname +'/views/about.html');
-// });
 
 app.get("/:path", (req, res) => {
   console.log(fs.existsSync(__dirname + `/views/${req.params.path}.html`));
