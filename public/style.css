@@ -195,3 +195,16 @@ img {
   padding-left: 150px;
 }
 
+
+@media (max-width: 640px){
+  .title{
+    font-size: 50px;
+    padding-left: 40px;
+  }
+  .projects-panel{
+    flex-direction: column;
+    padding-left: 40;
+  }
+
+}
+
