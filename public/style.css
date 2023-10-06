@@ -180,8 +180,10 @@ img {
 
 }
 .rec h1{
-  font-size: 30px;
+  font-size: 25px;
   color: #fff6d6;
+  
+  
 }
 
 .rec:hover {
@@ -191,19 +193,19 @@ img {
 
 .title {
   color: #fff6d6;
-  font-size: 80px;
-  padding-left: 150px;
+  font-size: 55px;
+  padding-left: 42px;
 }
 
 
 @media (max-width: 640px){
   .title{
     font-size: 50px;
-    padding-left: 40px;
+    padding-left: 50px;
   }
   .projects-panel{
     flex-direction: column;
-    padding-left: 40;
+    padding-left: 50px;
   }
 
 }
