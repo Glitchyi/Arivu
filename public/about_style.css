@@ -1,4 +1,4 @@
-font-face {
+@font-face {
   font-family: 'Jetbrains';
   src: url(jetbrains.ttf);
 }
@@ -7,7 +7,7 @@ font-face {
   margin: 0px;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -16,6 +16,7 @@ body {
   font-family: 'Jetbrains';
   background-color: #fff6d6;
 }
+
 .arivu-text {
   font: jetbrains;
   font-size: x-large;
