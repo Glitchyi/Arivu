@@ -1,214 +1,70 @@
 @font-face {
-    font-family: 'Jetbrains';
-    src: url(jetbrains.ttf);
+  font-family: 'Jetbrains';
+  src: url(jetbrains.ttf);
+}
+a{
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+body {
+  font-family: 'Jetbrains';
+  background-color: #fff6d6;
+  
+}
+.arivu-text {
+  font: jetbrains;
+  font-size: x-large;
+  color: #003A3A;
+}
+
+
+.text{
+  width: 60%;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .text{
+    width: 80%;
   }
   
-  * {
-    margin: 0px;
-  }
-  
-  body::-webkit-scrollbar{
-    display: none;
-  }
-  
-  
-  body {
-    font-family: 'Jetbrains';
-    background-color: #fff6d6;
-  }
-  
-  .link{
-    text-decoration: none;
-    color: black;
-  }
-  .pattern{
-    width: 70vw;
-    height: 20vh;
-    object-fit: cover;
-    display: none;
-  }
-  
-  .landing{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  @media (max-width: 640px) {
-    .landing {
-        /* flex-direction: row; */
-        justify-content: center;
-        padding: 10vw;
-      }
-      .pattern{
-        display: block;
-      }
-  }
-   
-  .arivu-text {
-    font: jetbrains;
-    font-size: x-large;
-    color: #003A3A;
-  }
-  
-  .header {
-    display: flex;
-    flex-shrink: 0;
-    justify-content: space-between;
-    align-items: center;
-    width: calc(100vw - 60px);
-    position: fixed;
-    padding: 30px;
-    top: 0;
-    background: #fff6d6;
-  }
-  
-  .logo {
-    gap: 20px;
-    display: flex;
-    flex-shrink: 0;
-    align-items: center;
-  }
-  
-  img {
-    height: 50px;
-  }
-  
-  .logo-img{
-    height: 50px;
-  }
-  
-  .quote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50vh;
-    gap: 20px;
-  }
-  
-  .quote p {
-    width: 50vw;
-    font-size: 2.0vh;
-    text-align: center;
-  }
-  
-  @media (max-width: 640px) {
-    .quote {
-        justify-content: flex-end;
-        /* height: 60vh; */
-        align-items: start;
-      }
-      .quote p {
-        text-align: left;
-        width: 70vw;
-      }
-  }
-  .content-main{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  
-  .mallu {
-    height: 15vw;
-    object-fit: cover;
-    display: none;
-    position: absolute;
-    transform: translateX(-50%) ;
-    left: 50%;
-    bottom: 0;
-    z-index: -1;
-  }
-  
-  @media (min-width: 640px) {
-    .mallu {
-        display: block ;
-    }
-  }
-  
-  .malluver {
-    height: 75vh;
-    object-fit: cover;
-    display: block ;
-    position: absolute;
-    filter: opacity(0.5);
-    right: 0;
-    bottom: 10px;
-    z-index: -1;
-  }
-  
-  @media (min-width: 640px) {
-    .malluver {
-      display: none;
-    }
-  }
-  .mal {
-    display: flex;
-    justify-content: center;
-    bottom: 0px;
-  }
-  
-  .project {
-    height: 100vh;
-    background-color: #015252;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: startr;
-    gap: 10vh;
-    
-  }
-  
-  .projects-panel{
-    gap: 10vw;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .rec {
-    width: 300px;
-    height: 150px;
-    background-color: #003A3A;
-    border: solid #fff6d6;
-    border-radius: 10px;
-    transition: all .5s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  .rec h1{
-    font-size: 25px;
-    color: #fff6d6;
-    
-    
-  }
-  
-  .rec:hover {
-    transform: translate(-5px, -5px);
-    box-shadow: 10px 10px rgba(0, 0, 0, .200);
-  }
-  
-  .title {
-    color: #fff6d6;
-    font-size: 55px;
-    padding-left: 42px;
-  }
-  
-  
-  @media (max-width: 640px){
-    .title{
-      font-size: 50px;
-      padding-left: 50px;
-    }
-    .projects-panel{
-      flex-direction: column;
-      padding-left: 50px;
-    }
-  
-  }
-  
-  
+}
+.center{
+  padding-top: 120px;
+  display: flex;
+  justify-content: center; 
+}
+
+
+.header {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100vw - 60px);
+  height: 60px;
+  position: fixed;
+  padding: 30px;
+  top: 0;
+  background: #fff6d6;
+}
+
+.logo {
+  gap: 20px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+img {
+  height: 50px;
+}
+
+.logo-img{
+  height: 50px;
+}
