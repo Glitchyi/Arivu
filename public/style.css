@@ -91,7 +91,8 @@ img {
 .quote p {
   width: 50vw;
   font-size: 2.0vh;
-  text-align: center;
+  /* text-align: center; */
+  /* text-align: center; */
 }
 
 @media (max-width: 640px) {

@@ -36,6 +36,7 @@ body {
 }
 .center{
   padding-top: 120px;
+  padding-bottom: 60px;
   display: flex;
   justify-content: center; 
 }
