@@ -28,7 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: calc(100vw - 60px);
-  position: fixed;
+  /* position: fixed; */
   padding: 30px;
   top: 0;
   background: #fff6d6;
@@ -40,7 +40,6 @@ body {
   flex-shrink: 0;
   align-items: center;
 }
-
 img {
   height: 50px;
 }
@@ -55,21 +54,31 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 50px;
   align-items: startr;
   gap: 10vh;
-  
 }
 
 .about-panel{
-  gap: 10vw;
+  gap: 6vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+.spl{
+  color: #fff6d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  align-items: start;
+  gap: 40px;
+}
+
 .profile {
   width: 300px;
-  height: 150px;  
+  /* height: 150px;   */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,14 +89,12 @@ img {
 .profile h1{
   font-size: 25px;
   color: #fff6d6;
-  
-  
+  text-align: center;
+  padding: 10px;
 }
 .profile p{
   font-size: 15px;
   color: #fff6d6;
-  
-  
 }
 
 .title {
@@ -106,15 +113,21 @@ img {
     flex-direction: column;
     padding-left: 50px;
   }
-
+  .about {
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
 }
-
+.desc{
+  color: antiquewhite; padding-left: 50px;padding-right: 50px;padding-top: 20px
+}
 .dp{
     height: 150px;
     width: 150px;
     background-color: white;
     border-radius: 50%;
     flex-shrink: 0;
-
     
-  }
+    
+}
