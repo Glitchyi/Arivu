@@ -3,6 +3,10 @@
   src: url(jetbrains.ttf);
 }
 
+a{
+  text-decoration: none;
+}
+
 * {
   margin: 0px;
 }

@@ -10,7 +10,13 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+* {
+  margin: 0px;
+}
 
+h2{
+  margin: .75em 0;
+}
 body {
   font-family: 'Jetbrains';
   background-color: #fff6d6;
@@ -48,8 +54,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: calc(100vw - 60px);
-  height: 60px;
-  position: fixed;
+  /* position: fixed; */
   padding: 30px;
   top: 0;
   background: #fff6d6;
