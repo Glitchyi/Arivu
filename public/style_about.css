@@ -49,21 +49,26 @@ img {
 }
 
 .about {
-  height: 100vh;
+  height: calc(100vh - 100px);
   background-color: #015252;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   padding-top: 50px;
-  align-items: startr;
+  align-items: start;
   gap: 10vh;
 }
 
 .about-panel{
-  gap: 6vw;
+  gap: 4vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.about-panel h1{
+  color: #fff6d6;
+  padding: 0px;
 }
 
 .spl{
@@ -118,16 +123,11 @@ img {
     padding-bottom: 60px;
     padding-top: 60px;
   }
+  .about-panel{
+    gap: 8vw;
+  }
+  
 }
 .desc{
   color: antiquewhite; padding-left: 50px;padding-right: 50px;padding-top: 20px
-}
-.dp{
-    height: 150px;
-    width: 150px;
-    background-color: white;
-    border-radius: 50%;
-    flex-shrink: 0;
-    
-    
 }
